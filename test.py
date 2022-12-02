@@ -9,3 +9,4 @@
 # print("Where is my \"cheese\"?")
 
 print(type(True))
+print(type(True))
