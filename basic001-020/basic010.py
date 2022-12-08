@@ -21,5 +21,8 @@ else:
     print('Sair')
 
 # Avaliação de curto circuito
-print(True and False and True)
-print(True and 0 and True)
+print(True and False and True) #False
+print(True and 0 and True) #0
+
+if 1 and 1:
+    print(True and 1 and False) #False
