@@ -8,8 +8,8 @@ Obs.: a função len retorna a qtd
 de caracteres da str
 """
 variavel = 'Olá mundo'
-print(variavel[0:5])
+print(variavel[-1::-1])
 print(variavel[5:])
 print(variavel[:5])
 print(variavel[-8:-2])
-print(variavel[::-1])
+print(len(variavel[::-1]))
