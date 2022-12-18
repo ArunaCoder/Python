@@ -32,6 +32,7 @@ while palavra_desvendada != palavra_secreta:
         continue
 
 
+
     if tentativa in palavra_secreta:
         palavra_montada = ''
         for i in numeros:
