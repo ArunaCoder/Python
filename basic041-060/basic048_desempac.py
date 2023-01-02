@@ -15,9 +15,12 @@ salas = [
 # p, b, *_, ap, u = lista
 # print(p, u, ap)
 
+# os dois abaixo... resultado igual
 # print('Maria', 'Helena', 1, 2, 3, 'Eduarda')
 # print(*lista)
-# print(*string)
+
+
+print(*string, sep='\n')
 # print(*tupla)
 
 print(*salas, sep='\n')
